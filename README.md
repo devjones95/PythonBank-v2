@@ -16,7 +16,7 @@ Uma versão melhorada do nosso sistema Bancário Python Bank v1
 
 <h3>📌 Principais Funções e Como Funcionam</h3>
 
-<strong>menu()<strong>
+<h4><strong>menu()<strong></h4>
 
 Exibe as opções disponíveis e recebe a escolha do usuário.
 depositar(saldo, valor, extrato, /)
@@ -43,22 +43,22 @@ Pede os dados do usuário (CPF, nome, data de nascimento e endereço).
 Verifica se o CPF já existe na lista usuarios (evita duplicatas).
 Adiciona o usuário à lista se não existir.<br><br>
 
-<strong>filtrar_usuario(cpf, usuarios)<strong>
+<h4><strong>filtrar_usuario(cpf, usuarios)<strong></h4>
 
 Busca um usuário pelo CPF na lista usuarios.<br><br>
 
 
-<strong>criar_conta(agencia, numero_conta, usuarios)<strong>
+<h4><strong>criar_conta(agencia, numero_conta, usuarios)<strong></h4>
 
 Pede o CPF do usuário para vincular à conta.
 Se o CPF existir, cria uma conta com agência fixa (0001) e número sequencial.<br><br>
 
 
-<strong>listar_contas(contas)<strong>
+<h4><strong>listar_contas(contas)<strong></h4>
 
 Exibe todas as contas cadastradas.<br><br>
 
-<strong>main()<strong>
+<h4><strong>main()<strong></h4>
 
 Inicializa variáveis (saldo, limite, usuarios, contas, etc.).
 Usa um while True para manter o sistema rodando até o usuário sair (q).
